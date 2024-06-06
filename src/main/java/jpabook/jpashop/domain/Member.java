@@ -3,7 +3,7 @@ package jpabook.jpashop.domain;
 import jakarta.persistence.*;
 
 @Entity
-public class Member {
+public class Member extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
